@@ -2,7 +2,7 @@
 title: Leo Notes
 editLink: true
 aside: 'left'
-outline: [2,3,4]
+outline: [2,4]
 ---
 
 # Leo
@@ -39,8 +39,9 @@ outline: [2,3,4]
 
 ## Combos
 
-## KNK
-### Transitions
+## Stances
+### KNK
+#### Transitions
 | Move | Block | Hit | CH | Notes
 | --- | --- | --- | --- | --- |
 | b+3+4 | | | | Creates space
@@ -54,7 +55,7 @@ outline: [2,3,4]
 | b+1,4 | +9 | +15g | +19 | Combo from 1st CH
 | b+4,1~4 | +9 | +15g | +19 | Combo from first hit <br> Enter CD with df -5 +1 +5 
 
-### Options
+#### Options
 | Move | Block | Hit | CH | Properties | Notes |
 | ---    | ---   | --- | --- | --- | --- |
 | 1,2 | -9 | +17 | | Heat Engager <br> Heat Dash +5 on block +36a hit <br> NC | Heat Engager <br> Guaranteed from CH f+4
@@ -67,9 +68,9 @@ outline: [2,3,4]
 | 2+3 | -13 | +31a | | Heat Smash <br> Balcony Break | Different Heat Smash
 | df | | | | | Cancels into crouch dash
 
-## BOK
+### BOK
 
-### Transitions
+#### Transitions
 | Move | Block | Hit | CH | Notes
 | --- | --- | --- | --- | ---
 | d+1+2 | | | |
@@ -84,7 +85,7 @@ outline: [2,3,4]
 | f+2,4,LTG.3 | +4c | +19d | | Need Lightning glare
 | KNK.1 | -7 | +4 | | |
 
-### Options
+#### Options
 | Move | Block | Hit | CH | Properties | Notes
 | --- | --- | --- | --- | --- | --- |
 | BOK.2 | -9 | +41a | | | Can't interrupt from b+1,1+2 transition on hit
