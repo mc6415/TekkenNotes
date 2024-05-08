@@ -31,5 +31,11 @@ features:
       src: /lee.png
       width: 150
     link: /lee
+  - title: Kazuya
+    details: Cold-Blooded Oppressor
+    icon:
+      src: /kazuya.png
+      width: 150
+    link: /kazuya
 ---
 
