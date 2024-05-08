@@ -1,0 +1,15 @@
+td {
+  padding-block: 1rem !important;
+}
+
+dd:not(:last-child) {
+  padding-block-end: 2rem;
+}
+
+dd {
+  font-size: 12px;
+}
+
+dt {
+  margin-block-end: 0.5rem;
+}
