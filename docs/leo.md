@@ -398,6 +398,54 @@ Gives good mini combo with `BOK.1+2`, `d+3+4`
 
 ## Combos
 
+### Mini Combos
+
+::: details
+`CH 4`
+~ `f+1+2`
+
+`CH df+1,2` or `(df+1),2`
+~ `d+4`
+
+`CH (df+1),2` or `CH (ws3,1),2`
+~ `f,F+2` (44; 14)  
+`f+1+2` (43; 13)
+
+`f,F+3~d`
+~ `BOK.2`
+
+`uf+2,1`
+~ `d+4,2`
+
+`CH f+3` or `CH (KNK.4)`
+~ `d+4,2`
+
+`CH f+3,d`
+~ `BOK.2`, `df+4`
+
+`f+2,4,LTG.3`
+~ `f,f+3`
+
+`CH SS.1+2` or `CH (f+2),2` or `CH (CD.2),1`
+~ `dash`, `d+4,2`
+
+`ub+1.P.4` or `CH b+1+4`
+~ `b+2,1+2`
+
+`CH f+4`
+~ `KNK.1,2` (Heat)  
+`KNK.2`
+
+`CH d+1`
+~ `d+3+4`
+
+`CH CD.1`
+~ `ws4, 1+2`
+
+`FC.df+3`
+~ `d+1+2`, `BOK.2`
+:::
+
 ## Stances
 
 ### KNK
