@@ -18,6 +18,7 @@ They do however have a fairly poor counter hit game and low game outside of very
 Another weakness is they are quite linear with poor tracking on a lot of their good moves which leaves them susceptible to being side stepped or walked
 
 ## Poke Game
+Fast and safe moves
 
 | Move    | Importance  | Block | Hit  | CH    | Notes          |
 | :---:   | :---:       | ---   | ---  | ---   | ---            |
@@ -33,10 +34,13 @@ Another weakness is they are quite linear with poor tracking on a lot of their g
 ~ Basic jab. Do NOT use 1,4 on block!
 
 `df+1` and `df+1,2` *(Close Range)*
-~ Generic df+1, -1 good for checking mid. High 2 extension gives good reward on counterhit
+~ Generic df+1, -1 good for checking mid.  
+High 2 extension gives good reward on counterhit  
+Can also get LTG on hit with `df+1,2~1+2`
 
 `d+4` *(Midrange)*
-~ Minus on hit low with tracking. Can use d+4,2 to make it less minus and step or take back turn, also threatens LTG enabling
+~ Minus on hit low with tracking.  
+Can use d+4,2 to make it less minus and step or take back turn, also threatens LTG enabling
 
 `4` *(Close Range)*
 ~ 12f magic 4, gives a decent mini combo on counter hit
@@ -44,12 +48,12 @@ Another weakness is they are quite linear with poor tracking on a lot of their g
 `CD.1` *(Close Range)*
 ~ High crushing low. Minus on hit but gives guaranteed ws4,1+2 heat engager on Counter Hit
 
-
 `f+4` *(Close Range)*
 ~ Mid that enters KNK stance for mixing. Faster and more reliable than b1,4 against better opponents, lacks range and tracking though
 :::
 
 ## Counterhit Game
+Stronger against enemy attacks. Often have evasive, parry or crush properties
 
 | Move      | Importance | Block | Hit  | CH   |
 | --------- | ---------- | ----- | ---- | ---- |
@@ -64,10 +68,12 @@ Another weakness is they are quite linear with poor tracking on a lot of their g
 ::: details
 
 `1,2,1,1` / `1,2,1,4`
-~ String follow ups that can be useful for counterhitting after 1,2. First three hits are all high though so be careful
+~ String follow ups that can be useful for counterhitting after 1,2.  
+First three hits are all high though so be careful
 
 `df+1,2`
-~ On counterhit can get a guaranteed mini combo with `f+1+2`
+~ On counterhit can get a guaranteed mini combo with `f+1+2`  
+Can also get LTG on hit with `df+1,2~1+2`
 
 `4`
 ~ 12f magic 4, gives a good mini combo with `BOK.1+2`, `d+3+4`
@@ -76,14 +82,18 @@ Another weakness is they are quite linear with poor tracking on a lot of their g
 ~ Slow high crushing low, but not overly punishable, full combo on counterhit
 
 `f+4`
-~ Mid that enters KNK stance for mixups, guaranteed `KNK.1,2` heat engager on counterhit
+~ Mid that enters KNK stance for mixups.  
+Guaranteed `KNK.1,2` heat engager on counterhit
 
 `d+2`
 ~ Forces crouch on block at +4 and gives full combo on counterhit
 
 `CD.1`
-~ High crushing low, gives guaranteed `ws4,1+2` heat engager on counter hit`
+~ High crushing low.  
+Gives guaranteed `ws4,1+2` heat engager on counter hit
 :::
+
+## 
 ## Best Moves
 | Move   | Block     | Hit  | CH   | Properties                                         | Notes                                                                       |
 | ------ | --------- | ---- | ---- | -------------------------------------------------- | --------------------------------------------------------------------------- |
