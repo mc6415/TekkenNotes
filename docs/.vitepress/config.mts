@@ -27,6 +27,7 @@ export default defineConfig({
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
   },
+  cleanUrls: true,
   markdown: {
     config: (md) => {
       md.use(defList.default)
