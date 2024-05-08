@@ -7,93 +7,175 @@ outline: [2,4]
 
 # Leo
 ## Gameplan
+Leo is a good all-rounder with some strong fundamental tools. Their primary focuses are wall pressure through mixups involving tools like `db+4` and utilising their `KNK` stance as well as whiff punishing using tools like `df+2`
 
+Leo has very strong wall damage and amazing carry to get there easily.
+
+Leo has very good block and while standing punishment tools with a decent `1` jab and `ws4` which is a safe on block `i11` mid with a heat engager follow up in `ws4,1+2`
+
+They do however have a fairly poor counter hit game and low game outside of very close range
+
+Another weakness is they are quite linear with poor tracking on a lot of their good moves which leaves them susceptible to being side stepped or walked
+
+## Poke Game
+
+| Move    | Importance  | Block | Hit  | CH    | Notes          |
+| :---:   | :---:       | ---   | ---  | ---   | ---            |
+| `1`     | Core        | +1    | +8   | ---   |                |
+| `df+1`  | Core        | -1    | +7   | ---   |                |
+| `d+4`   | Core        | -11   | 0    | ---   |                |
+| `4`     | Secondary   | -7    | +6   | +31a  |                |
+| `CD.1`  | Secondary   | -12   | -1   | +11   |                |
+| `f+4`   | Secondary   | +9    | +15g | +19   | Recovers in KNK|
+
+::: details
+**`1`** *(Close Range)*
+~ Basic jab. Do NOT use 1,4 on block!
+
+`df+1` and `df+1,2` *(Close Range)*
+~ Generic df+1, -1 good for checking mid. High 2 extension gives good reward on counterhit
+
+`d+4` *(Midrange)*
+~ Minus on hit low with tracking. Can use d+4,2 to make it less minus and step or take back turn, also threatens LTG enabling
+
+`4` *(Close Range)*
+~ 12f magic 4, gives a decent mini combo on counter hit
+
+`CD.1` *(Close Range)*
+~ High crushing low. Minus on hit but gives guaranteed ws4,1+2 heat engager on Counter Hit
+
+
+`f+4` *(Close Range)*
+~ Mid that enters KNK stance for mixing. Faster and more reliable than b1,4 against better opponents, lacks range and tracking though
+:::
+
+## Counterhit Game
+
+| Move      | Importance | Block | Hit  | CH   |
+| --------- | ---------- | ----- | ---- | ---- |
+| `1,2,1,1` | Core       | -13   | +12a |      |
+| `1,2,1,4` | Core       | -6    | +32a |      |
+| `df+1,2`  | Core       | -6    | +9d  | +34d |
+| `4`       | Core       | -7    | +6   | +31a |
+| `df+2+3`  | Core       | -12   | +5   | +21d |
+| `f+4`     | Core       | +9    | +15g | +19  |
+| `d+2`     | Core       | +4c   | +9c  | +56a |
+| `CD.1`    | Secondary  | -12   | -1   | +11  |
+::: details
+
+`1,2,1,1` / `1,2,1,4`
+~ String follow ups that can be useful for counterhitting after 1,2. First three hits are all high though so be careful
+
+`df+1,2`
+~ On counterhit can get a guaranteed mini combo with `f+1+2`
+
+`4`
+~ 12f magic 4, gives a good mini combo with `BOK.1+2`, `d+3+4`
+
+`df+2+3`
+~ Slow high crushing low, but not overly punishable, full combo on counterhit
+
+`f+4`
+~ Mid that enters KNK stance for mixups, guaranteed `KNK.1,2` heat engager on counterhit
+
+`d+2`
+~ Forces crouch on block at +4 and gives full combo on counterhit
+
+`CD.1`
+~ High crushing low, gives guaranteed `ws4,1+2` heat engager on counter hit`
+:::
 ## Best Moves
-| Move |  Block | Hit | CH | Properties | Notes |
-|--- | --- | --- | --- | --- | --- |
-| 1  | +1 | +8 | | |
-| df+1  | -1 | + 7 | | | Good for pressure <br> <br> Extension with df1,2 <br> f1+2  if that happens
-| d4  | -11 ~ -10 | 0 | | |
-| df+3 | -9 ~ -7 | +6a | +27a | Homing <br> <br> Balcony Break | Homing, quick
-| CD.2,1  | -6 | +10 | +30d | Wall crush on hit +22g <br> <br> NC from first hit  |
-| CD.1 | -12 | -1 | +11 | |
-| CD.3+4  | -6 | +13g | | |
-| CD.2,4  | -11 | +10d | | | Unsafe at -11 <br> Wallsplats <br> Can be ducked and stepped
-| d1  | -2 | +5 | +24d | Spike <br> <br> Enter FC with d | Can go for df2 followup on hit
-| d2  | +4c | +9c | +56a | Spike | CH Launcher <br> <br> df1 is a frametrap
-| KNK.2  | -9 | +22a | +58a | Balcony Break | CH Launcher if you see them going in
-| CH4  | -7 | +6 | +31a | | Guaranteed followups and safe on block
+| Move   | Block     | Hit  | CH   | Properties                                         | Notes                                                                       |
+| ------ | --------- | ---- | ---- | -------------------------------------------------- | --------------------------------------------------------------------------- |
+| 1      | +1        | +8   |      |                                                    |                                                                             |
+| df+1   | -1        | + 7  |      |                                                    | Good for pressure <br> <br> Extension with df1,2 <br> f1+2  if that happens |
+| d4     | -11 ~ -10 | 0    |      |                                                    |                                                                             |
+| df+3   | -9 ~ -7   | +6a  | +27a | Homing <br> <br> Balcony Break                     | Homing, quick                                                               |
+| CD.2,1 | -6        | +10  | +30d | Wall crush on hit +22g <br> <br> NC from first hit |                                                                             |
+| CD.1   | -12       | -1   | +11  |                                                    |                                                                             |
+| CD.3+4 | -6        | +13g |      |                                                    |                                                                             |
+| CD.2,4 | -11       | +10d |      |                                                    | Unsafe at -11 <br> Wallsplats <br> Can be ducked and stepped                |
+| d1     | -2        | +5   | +24d | Spike <br> <br> Enter FC with d                    | Can go for df2 followup on hit                                              |
+| d2     | +4c       | +9c  | +56a | Spike                                              | CH Launcher <br> <br> df1 is a frametrap                                    |
+| KNK.2  | -9        | +22a | +58a | Balcony Break                                      | CH Launcher if you see them going in                                        |
+| CH4    | -7        | +6   | +31a |                                                    | Guaranteed followups and safe on block                                      |
+
 
 ## Punishes
 
-| Frame | Standing | Crouching | Whiff |
-| --- | --- | --- | --- 
-| 10f | 1,4 | FC.d+1 | 1,4
-| 11f | 2,2 | ws4,1+2 (heat) | df+2
-| 12f | --- | ws1+2 | db+2,4
-| 13f | uf+1,2 | uf+1,2
-| 14f | f+2,2 <br> b+2,1+2 (heat) | ---
-| 15f | df2 | ws+2 | 
-| 16f | db+2,4 (heat) (range) | ---
-| 23f | uf,n,4 | uf,n,4
+| Frame | Standing                  | Crouching      | Whiff  |
+|-------|---------------------------|----------------|--------|
+| 10f   | 1,4                       | FC.d+1         | 1,4    |
+| 11f   | 2,2                       | ws4,1+2 (heat) | df+2   |
+| 12f   | ---                       | ws1+2          | db+2,4 |
+| 13f   | uf+1,2                    | uf+1,2         |        |
+| 14f   | f+2,2 <br> b+2,1+2 (heat) | ---            |        |
+| 15f   | df2                       | ws+2           |        |
+| 16f   | db+2,4 (heat) (range)     | ---            |        |
+| 23f   | uf,n,4                    | uf,n,4         |        |
+
 
 ## Combos
 
 ## Stances
 ### KNK
 #### Transitions
-| Move | Block | Hit | CH | Notes
-| --- | --- | --- | --- | --- |
-| b+3+4 | | | | Creates space
-| 1,2~b | -9 | +2 | | |
-| b+3,1~b | -10 | +1 | | 
-| CD.2 | -9 | +9 | | |
-| BOK.4 | +9 | +15g | +19 | Same move as f+4
-| f+4 | +9 | +15g | +19 | Same move as BOK.4
-| 3,2,4 | +9 | +15g | +19 | Combo from 2nd CH
-| 1,4 | -5 | +11 | | Jail from first attack
-| b+1,4 | +9 | +15g | +19 | Combo from 1st CH
-| b+4,1~4 | +9 | +15g | +19 | Combo from first hit <br> Enter CD with df -5 +1 +5 
+| Move    | Block | Hit  | CH  | Notes                                               |
+|---------|-------|------|-----|-----------------------------------------------------|
+| b+3+4   |       |      |     | Creates space                                       |
+| 1,2~b   | -9    | +2   |     |                                                     |
+| b+3,1~b | -10   | +1   |     |                                                     |
+| CD.2    | -9    | +9   |     |                                                     |
+| BOK.4   | +9    | +15g | +19 | Same move as f+4                                    |
+| f+4     | +9    | +15g | +19 | Same move as BOK.4                                  |
+| 3,2,4   | +9    | +15g | +19 | Combo from 2nd CH                                   |
+| 1,4     | -5    | +11  |     | Jail from first attack                              |
+| b+1,4   | +9    | +15g | +19 | Combo from 1st CH                                   |
+| b+4,1~4 | +9    | +15g | +19 | Combo from first hit <br> Enter CD with df -5 +1 +5 |
+
 
 #### Options
-| Move | Block | Hit | CH | Properties | Notes |
-| ---    | ---   | --- | --- | --- | --- |
-| 1,2 | -9 | +17 | | Heat Engager <br> Heat Dash +5 on block +36a hit <br> NC | Heat Engager <br> Guaranteed from CH f+4
-| 2 | -9 | +22a | +58a | Balcony Break | CH Launching high
-| 3 | -13 | +28a | | | Hopkick <br> Combo Starter
-| 3,4 | -12 | +80a | | Tornado | Hopkick that tornadoes
-| 4 | -12 | +4c | +17d | Spike <br> CD -10 Block, +6c Hit, +19d CH | Can go into crouch dash
-| 3+4 | -26 | +19d | | | Low Sweep <br> High Crushes
-| 1+2 | -6 | +21 | +41a | Tornado <br> Balcony Break <br> Chip on block | Safe Mid CH launcher
-| 2+3 | -13 | +31a | | Heat Smash <br> Balcony Break | Different Heat Smash
-| df | | | | | Cancels into crouch dash
+| Move | Block | Hit  | CH   | Properties                                               | Notes                                    |
+|------|-------|------|------|----------------------------------------------------------|------------------------------------------|
+| 1,2  | -9    | +17  |      | Heat Engager <br> Heat Dash +5 on block +36a hit <br> NC | Heat Engager <br> Guaranteed from CH f+4 |
+| 2    | -9    | +22a | +58a | Balcony Break                                            | CH Launching high                        |
+| 3    | -13   | +28a |      |                                                          | Hopkick <br> Combo Starter               |
+| 3,4  | -12   | +80a |      | Tornado                                                  | Hopkick that tornadoes                   |
+| 4    | -12   | +4c  | +17d | Spike <br> CD -10 Block, +6c Hit, +19d CH                | Can go into crouch dash                  |
+| 3+4  | -26   | +19d |      |                                                          | Low Sweep <br> High Crushes              |
+| 1+2  | -6    | +21  | +41a | Tornado <br> Balcony Break <br> Chip on block            | Safe Mid CH launcher                     |
+| 2+3  | -13   | +31a |      | Heat Smash <br> Balcony Break                            | Different Heat Smash                     |
+| df   |       |      |      |                                                          | Cancels into crouch dash                 |
+
 
 ### BOK
 
 #### Transitions
-| Move | Block | Hit | CH | Notes
-| --- | --- | --- | --- | ---
-| d+1+2 | | | |
-| b+1,1+2~d | -10 | +11 | | NC on first hit
-| 3,2~d | -6 | +5 | | 
-| f+3~d | +2 | +6 | +29a
-| db+1+2~d | -12 | +4 | |
-| b+3,1~d | -8 | +5 | | Spike <br> NC on first hit
-| uf+2 | -11 | +21a | |
-| f,F+3~d | +0 | +10d | |
-| ws3,1~d | -10 | +9 | | Alternative input CD.3,1
-| f+2,4,LTG.3 | +4c | +19d | | Need Lightning glare
-| KNK.1 | -7 | +4 | | |
+| Move        | Block | Hit  | CH   | Notes                      |
+|-------------|-------|------|------|----------------------------|
+| d+1+2       |       |      |      |                            |
+| b+1,1+2~d   | -10   | +11  |      | NC on first hit            |
+| 3,2~d       | -6    | +5   |      |                            |
+| f+3~d       | +2    | +6   | +29a |                            |
+| db+1+2~d    | -12   | +4   |      |                            |
+| b+3,1~d     | -8    | +5   |      | Spike <br> NC on first hit |
+| uf+2        | -11   | +21a |      |                            |
+| f,F+3~d     | +0    | +10d |      |                            |
+| ws3,1~d     | -10   | +9   |      | Alternative input CD.3,1   |
+| f+2,4,LTG.3 | +4c   | +19d |      | Need Lightning glare       |
+| KNK.1       | -7    | +4   |      |                            |
+
 
 #### Options
-| Move | Block | Hit | CH | Properties | Notes
-| --- | --- | --- | --- | --- | --- |
-| BOK.2 | -9 | +41a | | | Can't interrupt from b+1,1+2 transition on hit
-| BOK.3 | +5 | +15d | | Homing <br> Balcony Break <br> Chip on block | High, low crushing
-| BOK.1 | -4 | +9 | | | Fastest option, can go for CHs afterwards at +9
-| BOK.1,2 | -14 | +72 | | Tornado <br> NC on 1st hit | 
-| BOK.4 | +9 | +15g | +19 | Recovers in KNK | 
-| BOK.1+2 | -12 | +15d | | Heat Engager <br> Heat Dash +5 +17d <br> Balcony Break <br> Spike <br> Chip on block
+| Move    | Block | Hit  | CH  | Properties                                                                           | Notes                                           |
+|---------|-------|------|-----|--------------------------------------------------------------------------------------|-------------------------------------------------|
+| BOK.2   | -9    | +41a |     |                                                                                      | Can't interrupt from b+1,1+2 transition on hit  |
+| BOK.3   | +5    | +15d |     | Homing <br> Balcony Break <br> Chip on block                                         | High, low crushing                              |
+| BOK.1   | -4    | +9   |     |                                                                                      | Fastest option, can go for CHs afterwards at +9 |
+| BOK.1,2 | -14   | +72  |     | Tornado <br> NC on 1st hit                                                           |                                                 |
+| BOK.4   | +9    | +15g | +19 | Recovers in KNK                                                                      |                                                 |
+| BOK.1+2 | -12   | +15d |     | Heat Engager <br> Heat Dash +5 +17d <br> Balcony Break <br> Spike <br> Chip on block |                                                 |
+
 
 ## Lightning Glare (LTG)
 
@@ -102,18 +184,19 @@ Lightning Glare is Leo's new install mechanic in Tekken 8, it grants them extens
 It is always usable in heat, and gives you one use after leaving heat.
 
 ### Getting LTG
-| Move | Block | Hit | CH | Properties | Notes
-| --- | --- | --- | --- | --- | ---
-| 1+2+3+4 | | | | | Gain LTG
-| d+4,2~1+2 | -5 | -11d | -1d | | NC On first hit
-| b+1+3,P.2 | -9 | -9a | | Balcony Break <br> Combo from parry <br> Gain LTG on hit
-| uf+1,2~1+2 | -14 | +22g | | Balcony Break <br> NC from first hit |
-| f,F+2~1+2 | -9 | -9a | | |
-| ws1+2~1+2 | -15 | +3 | | | Alternate input CD.1+2
+| Move       | Block | Hit  | CH  | Properties                                               | Notes                  |
+|------------|-------|------|-----|----------------------------------------------------------|------------------------|
+| 1+2+3+4    |       |      |     |                                                          | Gain LTG               |
+| d+4,2~1+2  | -5    | -11d | -1d |                                                          | NC On first hit        |
+| b+1+3,P.2  | -9    | -9a  |     | Balcony Break <br> Combo from parry <br> Gain LTG on hit |                        |
+| uf+1,2~1+2 | -14   | +22g |     | Balcony Break <br> NC from first hit                     |                        |
+| f,F+2~1+2  | -9    | -9a  |     |                                                          |                        |
+| ws1+2~1+2  | -15   | +3   |     |                                                          | Alternate input CD.1+2 |
+
 
 ### Moves in LTG
-| Move | Block | Hit | CH | Properties | Notes
-| --- | --- | --- | --- | --- | ---
-| f+2,4,LTG.3 | +1c | +16d | | Balcony Break <br> Spike <br> Chip on block <br> NC on 1st hit | Enter BOK with d +4c +19d <br> Wallsplats <br> full jailing string
-| db+4,1,LTG.1+2 | -15 | +6a | | Balcony Break <br> Chip on block <br> NC on 1st hit | Can confirm the followup from the hellsweep
-| b+3,1,LTG.2 | -13 | +10a | | Balcony Break <br> Chip on block <br> NC on 1st hit | Hit confirm the 2
+| Move           | Block | Hit  | CH | Properties                                                     | Notes                                                              |
+|----------------|-------|------|----|----------------------------------------------------------------|--------------------------------------------------------------------|
+| f+2,4,LTG.3    | +1c   | +16d |    | Balcony Break <br> Spike <br> Chip on block <br> NC on 1st hit | Enter BOK with d +4c +19d <br> Wallsplats <br> full jailing string |
+| db+4,1,LTG.1+2 | -15   | +6a  |    | Balcony Break <br> Chip on block <br> NC on 1st hit            | Can confirm the followup from the hellsweep                        |
+| b+3,1,LTG.2    | -13   | +10a |    | Balcony Break <br> Chip on block <br> NC on 1st hit            | Hit confirm the 2                                                  |
