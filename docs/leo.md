@@ -79,7 +79,7 @@ Because of this it is a more advanced and situational technique compared with th
 above
 
 Good moves for this include:
-  
+
 - `BOK.2`
 - `SS.1+2`
 
@@ -456,6 +456,287 @@ Gives good mini combo with `BOK.1+2`, `d+3+4`
 | 23f   | uf,n,4                    | uf,n,4         |        |
 
 ## Combos
+
+Leo has two primary goals whenever they get a launch
+
+1. Reach the wall
+2. Maximise the damage
+
+Reaching the wall should always be your top priority unless the opponent
+is almost dead
+
+Don't fall into the trap of not using your tornado before the wall
+no matter what, it is often better to ensure you get the wall
+even if it means missing out on 10 damage along the way  
+
+Tornado can be a great way to slow the combo down and judge the distance to the wall
+
+With Leo's combos we have two primary routes we can go down:  
+
+- **BOK route**  
+  If you don't think you can get the wall go with this for more damage  
+  Preferred if you are not getting the wall or are on an infinite stage as
+  it maximises damage
+- **KNK route**  
+  Has really good wall carry and you really want to be at the wall on Leo  
+  Will give you less damage if you don't reach the wall
+
+Your combos for the most part will look like this:
+
+```mermaid
+  flowchart TD
+    id1(Launcher)
+    id3(KNK Route)
+    id2(Transitional Moves)
+    id4(BOK Route)
+    id5(Wall splat moves)
+    id6(Wall combo)
+    id7(Tornado)
+    id8(Wall splat moves)
+    id9(Wall Ender)
+    id10(Combo Ender / Oki setup)
+    id11(Can I reach the wall)
+    id1 --> id2 & id3 & id4
+    id2 --> id3 & id4
+    id3 --> id11
+    id11 -- Yes --> id5
+    id11 -- No --> id7
+    id5 --> id6
+    id4 --> id7
+    id7 -- Reaching the wall --> id8
+    id7 -- Not reaching wall --> id10
+    id8 --> id9
+```
+
+Using this chart we can start to break down a basic combo into it's parts
+lets use the following:  
+
+### Combo anatomy
+
+#### KNK Route anatomy
+
+```mermaid
+  flowchart LR
+  df2 --> df1 --> b1,4
+```
+
+Using the chart above this is:  
+
+```mermaid
+  flowchart LR
+  id1(Transitional Move)
+  id2(KNK Route)
+  Launcher --> id1 --> id2
+```
+
+From here we now have choices as we're in KNK stance, some of the carry
+options are:
+
+If you think you can hit the wall:
+
+```mermaid
+  flowchart LR
+    id1(KNK.2)
+    id2(KNK~df)
+    id3(CD.2,1)
+    id4(ws3,1,2)
+    id1
+    id2 --> id3
+    id2 --> id4
+```
+
+These are our wall splat moves.
+
+If you don't think you can reach the wall you can add this into the
+combo **ONCE**
+
+```mermaid
+  flowchart LR
+    id1(KNK~df)
+    id2(ws3)
+    id3(f4)
+    id1 --> id2 --> id3
+```
+
+This will give you more carry and put you back into KNK stance where you
+can do one of the wallsplats above
+
+If after you've added this in you still don't think you can reach the wall
+you can tornado with
+
+```mermaid
+  flowchart LR
+  id1(KNK.1+2)
+  id1
+```
+
+So putting this all together we'd get something that would potentially
+look like
+
+```mermaid
+  flowchart LR
+  id1(df2)
+  id2(df1)
+  id3(b1,4)
+  id4(KNK~df)
+  id5(ws3)
+  id6(f4)
+  id7(KNK~df)
+  id8(ws3,1,2)
+  id9(Wallsplat)
+
+  id1 --> id2
+  id2 --> id3
+  id3 --> id4
+  id4 --> id5
+  id5 --> id6
+  id6 --> id7
+  id7 --> id8
+  id8 --> id9
+```
+
+From here you can do your wall combo with a Tornado as you've still not
+used your tornado at this point  
+
+[Click here for more on wall combos](#wall-combos)
+
+If you're not reaching the wall you'd replace the combo ender with
+
+```mermaid
+  flowchart LR
+  id1(df2)
+  id2(df1)
+  id3(b1,4)
+  id4(KNK~df)
+  id5(ws3)
+  id6(f4)
+  id7(KNK.1+2)
+  id8(T!)
+
+  id1 --> id2 --> id3 --> id4 --> id5 --> id6 --> id7 --> id8
+```
+
+### Default Combo Starters
+
+A lot of Leo's launchers share very similar combo routes, these launchers
+are:
+
+- `df+2`
+- `uf+4`
+- `ws2`
+- `f,F+4`
+- `KNK.3`
+
+From these we can go with either KNK or BOK routes
+
+#### KNK Route Options
+
+```mermaid
+  flowchart LR
+  1(f+2) --> 2(b+1,4)
+```
+
+```mermaid
+  flowchart LR
+  1(df+1) --> 2(b+1,4)
+```
+
+::: details
+
+- This is recommended when off-axis to the right
+- medium-low damage with easy execution (df+1 especially)
+:::
+
+```mermaid
+  flowchart LR
+  1(4) --> 2(b+1,4)
+```
+
+::: details
+
+- 2 more damage than `f+2` route
+- easy execution with lots of time to hit
+- doesn't work off axis on SSR side
+
+:::
+
+```mermaid
+  flowchart LR
+  1(b+1,1+2) --> 2(f+4)
+```
+
+::: details
+
+- 3 more damage than `f+2`
+- Better Wall carry
+- tighter execution
+:::
+
+#### BOK Route Options
+
+```mermaid
+  flowchart LR
+  1(4) --> 2(f2) --> 3(b+1,1+2~d) --> 4(BOK.1,2)
+```
+
+::: details
+
+- Max damage `df2` combo
+- Drops at tip `df2` range
+  
+:::
+
+```mermaid
+  flowchart LR
+  1(4) --> 2(b1,1+2~d) --> 3(BOK.1,2)
+```
+
+::: details
+
+- 1-3 less damage than max damage route above
+- drops at tip range
+- works off-axis in SSL direction
+:::
+
+```mermaid
+  flowchart LR
+  1(f+2) --> 2(b+1,1+2~d) --> 3(BOK.1,2)
+```
+
+::: details
+
+- 3-5 less damage than max damage
+- works off axis in both directions and at tip range
+
+### Wall Combos
+
+There are two main routes here, depending on if you've used your tornado
+earlier on or not these are  
+
+#### With Tornado
+
+```mermaid
+  flowchart LR
+  id1(b+1,4)
+  id2(KNK.3,4)
+  id3(ws1,4,1)
+
+  id1 --> id2 --> id3
+```
+
+This is very reliable and gives you great Oki
+
+#### Without Tornado
+
+```mermaid
+  flowchart LR
+    id1(b+1,4)
+    id2(KNK.1+2)
+
+    id1 --> id2
+```
+
+This gives you the best compromise of damage and oki
 
 ### Mini Combos
 
