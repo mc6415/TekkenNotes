@@ -24,6 +24,65 @@ close range
 Another weakness is they are quite linear with poor tracking on a lot of their good
 moves which leaves them susceptible to being side stepped or walked
 
+## Whiff Creation
+
+Leo has amazing whiff punishment and as such we can start to try and develop a gameplan
+around using moves with pushback to try and create these opportunities some moves
+we can use for this include the following:
+
+| Move    | Block | Hit | CH   |
+| ------- | ----- | --- | ---- |
+| `df+4`  | -6    | +5  |      |
+| `d+4`   | -11   | +0  |      |
+| `f+3+4` | 0     | +8  | +71a |
+| `CD.2`  | -9    | +9  |      |
+
+Options the opponent could use after one of these are:
+
+- They could whiff their follow up attack (This is the ideal outcome )
+- They could use a long range move that we can't backstep from, most of these are
+  slow however so we could attempt to interrupt
+- They could go for a dash in to make sure they don't whiff, if they do this we
+  can play outside of our frames and go for the interrupt
+- They could go defensive, if they do this we can take the upperhand and use it
+  to continue pushing our offense
+
+::: details
+
+`df+4`
+~ This is our go-to whiff creation tool. It's a fast `i13` mid poke which has both
+great range and great pushback  
+
+`d+4`
+~ This is our best low for whiff creation, it has great tracking, range and pushback
+
+`f+3+4`
+~ This is a high move with huge pushback, range and even has chip damage  
+Gives big reward on counterhit as well
+
+`CD.2`
+~ This comes with good range, good pushback and threatens the second hit with
+`CD.2,1` on hit  
+On hit we're left at +9 relatively close to the opponent so can go for a `f+3+4`
+
+:::
+
+## Space Trapping
+
+This is again to try and bait out whiffs but is done differently to the above.  
+  
+What we're aiming for here is to use our moves at max range to try and bait them
+into missing the retaliation.  
+This requires us to be aware of the maximum range of our moves and the space
+between us and our opponent at all times  
+Because of this it is a more advanced and situational technique compared with the
+above
+
+Good moves for this include:
+  
+- `BOK.2`
+- `SS.1+2`
+
 ## Poke Game
 
 Fast and safe moves
