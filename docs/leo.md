@@ -712,12 +712,326 @@ From these we can go with either KNK or BOK routes
 
 :::
 
+### Special Combo Starters
+
+Some launchers have a slightly different route than the above these are:
+
+```mermaid
+flowchart TD
+1(db3)
+2(BOK.2)
+```
+
+::: details
+
+```mermaid
+  flowchart LR
+  1(f+3) --> 2(f+2) --> 3(b+1, 1+2~d) --> 4(BOK.1,2) --> 5(T!)
+```
+
+- Locks you into using your tornado but has great damage
+- works off-axis in either direction
+
+```mermaid
+  flowchart LR
+  1(f+3) --> 2(b+1,4)
+```
+
+- Great wall carry versatility due to KNK route (`ws3,1,2` after six hits
+  for huge carry)
+- Good damage
+- Works off-axis in either direction
+
+:::
+
+```mermaid
+  flowchart TD
+  1(CH d+2)
+```
+
+::: details
+
+```mermaid
+  flowchart LR
+  1(f+3) --> 2(2)
+```
+
+- Tight execution, good reaction to CH needed
+- transition into KNK route via `b1,4` or into the BOK route with
+  `b1,1+2~d`
+
+```mermaid
+  flowchart LR
+  1(b+1,1+2) --> 2(f+4)
+```
+
+- Better carry, less damage
+- Goes under some opponents if used immediately
+- forces KNK route
+
+```mermaid
+  flowchart LR
+  1(b+1,4)
+```
+
+- Generous window to react to landing the counterhit
+- low damage
+- forces KNK route
+
+```mermaid
+  flowchart LR
+  1(4) --> 2(dash) --> 3(4)
+```
+
+- Max damage consistently for the BOK route
+- Works better from SSL angle
+- needs KNK cancel to get more damage than `b+1,1+2 -> f+4`
+
+:::
+
+```mermaid
+flowchart TD
+1(df+2+3)
+```
+
+::: details
+
+```mermaid
+  flowchart LR
+  1(ws3,4)
+```
+
+:::
+
+CH Launchers that knockdown (like `db+4`)
+
+::: details
+
+```mermaid
+  flowchart LR
+  dash --> 1(df+2+3) --> 2(ws3)
+```
+
+- Allows for either KNK or BOK route
+
+:::
+
+### KNK Route into Wall Splat
+
+So after going through the KNK route you'll be wanting to splat against
+the wall to get your wall combo going, you have two scenarios here  
+
+1. You wall splat before you tornado
+2. You tornado first then go for the wall splat
+
+#### Wall Splat options before tornado
+
+These moves will wall splat from the combo before the tornado, there
+are various options and some won't hit depending on how many hits you've landed
+in the combo before hand so they're grouped by the maximum number of hits you
+can use before using that wall splat
+
+::: details 7 hits or fewer before usage
+
+```mermaid
+  flowchart LR
+  1(KNK~df) --> 2(CD.2,1)
+```
+
+- Very long splat range
+- Medium Carry distance
+
+```mermaid
+  flowchart LR
+  1(KNK~df) --> 2(ws3,1)
+```
+
+- Short splat range
+- medium carry distance
+- Use this when `CD.2,1` or `ws3,1,2` would carry too far
+
+:::
+
+::: details 6 hits or fewer before usage
+
+```mermaid
+  flowchart LR
+  1(KNK~df) --> 2(ws3,1,2)
+```
+
+- Very long splat range
+- Long carry distance
+
+```mermaid
+  flowchart LR
+  1(KNK~df) --> 2(uf+1,2)
+```
+
+- Long splat range
+- medium carry distance
+
+```mermaid
+  flowchart LR
+  1(KNK.2)
+```
+
+- Short splat range
+- Short Carry distance
+- Requires a deep `ws3` before at 6 hits
+
+```mermaid
+  flowchart LR
+  1(b+1,1+2)
+```
+
+- Medium-Long splat range
+- Medium carry distance
+- gives high splats
+  
+:::
+
+::: details 4 hits or fewer before usage
+
+```mermaid
+flowchart LR
+1(KNK.3)
+```
+
+- Short splat range
+- Extremely short carry distance
+
+:::
+
+### Early Tornado Route
+
+#### Tornado Options
+
+::: details 7 Hits or fewer before usage
+  
+  ```mermaid
+    flowchart LR
+    1(KNK~df) --> 2(u+1)
+  ```
+
+- Safest option if you want to stop the combo early because it also gives good
+  wall splats
+
+:::
+
+::: details 6 Hits or fewer before usage
+
+```mermaid
+flowchart LR
+1(KNK.1+2)
+```
+
+- Can make BBP tricky to land
+- default KNK route tornado
+
+:::
+
+::: details 4 Hits or fewer before usage
+
+```mermaid
+flowchart LR
+1(1) --> 2(f+3~d) --> 3(BOK.1,2)
+```
+
+- Rarely the best option, but it is a way to switch to the BOK route if already
+  deep in a combo
+- Puts opponent slightly off-axis (great for BBP)
+  
+:::
+
+::: details 3 Hits or fewer before usage
+
+```mermaid
+flowchart LR
+1(b+1,1+2~d) --> 2(BOK.1,2)
+```
+
+- Highest damage
+- Puts opponent slightly off axis (great for BBP)
+
+:::
+
+#### Wall Splats after Tornado
+
+These moves will get you a clean wall splat again these are categorised by how
+many hits before you can use in the combo before they start to miss
+
+::: details Almost always work
+  
+```mermaid
+  flowchart LR
+  ff+4,3
+```
+  
+- Short splat and carry distance
+- This one is super safe works until around 15 or so hits
+
+```mermaid
+  flowchart LR
+  qcf --> CD.2,1
+```
+
+- Long splat range and medium carry distance
+
+```mermaid
+flowchart LR
+2,2
+```
+
+- Short splat range and carry distance
+- Fast recovery time, use this if `ff+4,3` puts you too close to wall
+  
+```mermaid
+flowchart LR
+uf+1,2
+```
+
+- medium-long splat range
+- short carry
+
+```mermaid
+flowchart LR
+BOK.1,2
+```
+
+- Medium splat range and short carry distance
+- gives nice and high wall splats for easy follow up
+
+```mermaid
+flowchart LR
+b+1,1+2
+```
+
+- Medium splat range and carry distance
+- Also gives high wall splats
+
+```mermaid
+flowchart LR
+uf+1,1
+```
+
+- Long splat range and short carry distance
+- gives nice and high wall splats again
+
+```mermaid
+flowchart LR
+f+2,2
+```
+
+- Medium-short splat and carry
+
+:::
+
 ### Wall Combos
 
 There are two main routes here, depending on if you've used your tornado
 earlier on or not these are  
 
-#### With Tornado
+::: details With Tornado
 
 ```mermaid
   flowchart LR
@@ -730,7 +1044,9 @@ earlier on or not these are
 
 This is very reliable and gives you great Oki
 
-#### Without Tornado
+:::
+
+::: details Without Tornado
 
 ```mermaid
   flowchart LR
@@ -741,6 +1057,8 @@ This is very reliable and gives you great Oki
 ```
 
 This gives you the best compromise of damage and oki
+
+:::
 
 ### Mini Combos
 
