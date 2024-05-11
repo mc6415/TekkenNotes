@@ -7,6 +7,8 @@ outline: [2,4]
 ---
 # Leo
 
+[[toc]]
+
 ## Gameplan
 
 Leo is a good all-rounder with some strong fundamental tools.
@@ -707,6 +709,8 @@ From these we can go with either KNK or BOK routes
 
 - 3-5 less damage than max damage
 - works off axis in both directions and at tip range
+
+:::
 
 ### Wall Combos
 
