@@ -367,6 +367,19 @@ Cancel into crouch dash to either take back space or make safer
 Can be used to evade retaliation or escape pressure
 :::
 
+## Frame Traps
+
+::: details
+
+```mermaid
+flowchart LR
+df+1 --> f+3+4
+```
+
+- Trades with jabs and gives a good CH launch
+
+:::
+
 ## Tech
 
 ### KNK Cancels
@@ -392,56 +405,255 @@ The input should look like `d,df,n,3` or `d,df,f,3` with the `df` and `n` or
 Note that `uf+2,1` has a much simpler pickup with heat burst which also
 guarantees a combo
 
-## Best Moves
+## Key Moves
 
-| Move   | Block     | Hit  | CH   |
-| ------ | --------- | ---- | ---- |
-| 1      | +1        | +8   |      |
-| df+1   | -1        | + 7  |      |
-| d4     | -11 ~ -10 | 0    |      |
-| df+3   | -9 ~ -7   | +6a  | +27a |
-| CD.2,1 | -6        | +10  | +30d |
-| CD.1   | -12       | -1   | +11  |
-| CD.3+4 | -6        | +13g |      |
-| CD.2,4 | -11       | +10d |      |
-| d1     | -2        | +5   | +24d |
-| d2     | +4c       | +9c  | +56a |
-| KNK.2  | -9        | +22a | +58a |
-| CH4    | -7        | +6   | +31a |
+| Move       | Speed | Block | Hit  | CH   |
+| ---------- | ----- | ----- | ---- | ---- |
+| `f+2,4`    | i22   | -1    | +7   |      |
+| `4`        | i12   | -7    | +6   | +31a |
+| `f+4`      | i17   | +9    | +15g | +19  |
+| `df+1`     | i13   | -1    | +7   |      |
+| `df+2`     | i15   | -13   | +28a |      |
+| `df+3`     | i17   | -9    | +6a  | +27a |
+| `CD.3+4`   | i18   | -6    | +13g |      |
+| `df+2+3`   | i21   | -12   | +5   | +21d |
+| `CD.1`     | i18   | -13   | -1   |      |
+| `CD.2,1`   | i18   | -6    | +10  | +30d |
+| `CD.2,4`   | i17   | -11   | +10d |      |
+| `d+2`      | i21   | +4c   | +9c  | +56a |
+| `d+1`      | i18   | -2    | +5   | +24d |
+| `db+2,4`   | i24   | -9    | +12a |      |
+| `db+4,1`   | i25   | -16   | +8a  |      |
+| `db+1+2,1` | i17   | -12   | +22a |      |
+| `b+1,4`    | i23   | +9    | +15g | +19  |
+| `b+1,1+2`  | i22   | -12   | +9   |      |
+| `b+1+4`    | i19   | -12   | +3   | +14  |
+| `uf+2,1`   | i25   | -8    | +4   | +32d |
+| `f+3+4`    | i17   | 0     | +8   | +71a |
+| `uf+3`     | i17   | -9    | +13a |      |
+| `f,F+2`    | i14   | -9    | +8a  |      |
+| `SS.1+2`   | i19   | -9    | +14a | +29d |
+| `FC.df+3`  | i21   | -26   | +37a |      |
+| `ws3,1`    | i21   | -10   | +3 |      |
 
 ::: details
-`df+1`
-~ Good for pressure  
-Extension with `df+1,2` which has counterhit knockdown  
-on CH knockdown follow with `f+1+2`
 
-`df+3`
-~ Homing, Balcony Break and quick
+```mermaid
+flowchart LR
+f+2,4
+```
 
-`CD.2,1`
-~ Wall crush on hit at +22g  
-NC from first hit
+- Jails from first hit
+- Can enter crouch dash with `df`
 
-`CD.2,4`
-~ Unsafe at -11  
-Wallsplats  
-Can be ducked and stepped
+```mermaid
+flowchart LR
+4
+```
 
-`d1`
-~ Very plus, can try for a `df+2` on hit  
-Can enter FC with d
+- Keepout tool
+- Fast move
+- Followup CH with `BOK.1+2`, `d+3+4`
 
-`d2`
-~ CH Launcher  
-Frametraps with `df+1`
+```mermaid
+flowchart LR
+f+4
+```
 
-`KNK.2`
-~ CH Launcher if you see them going in when going into KNK  
-Balcony break
+- One of the main neutral and pressure tools
+- Recovers in KNK
+- On CH `KNK.1,2` is guaranteed
 
-`CH 4`
-~ Leo still gets a magic 4!  
-Gives good mini combo with `BOK.1+2`, `d+3+4`
+```mermaid
+flowchart LR
+df+1
+```
+
+- Key poke move
+- Has high extension with `df+1,2` that gives knockdown on CH
+- On hit `f+3+4` will trade with jabs
+
+```mermaid
+flowchart LR
+df+2
+```
+
+- Great range so great for whiff punishment
+
+```mermaid
+flowchart LR
+df+3
+```
+
+- Homing move
+
+```mermaid
+flowchart LR
+CD.3+4
+```
+
+- Good mixup from crouch dash
+- homing move
+
+```mermaid
+flowchart LR
+df+2+3
+```
+
+- Key low move
+- Barely reactable
+- CH launcher
+
+```mermaid
+flowchart LR
+CD.1
+```
+
+- Crushes highs
+- On CH gives you a guaranteed `ws4,1+2`
+
+```mermaid
+flowchart LR
+CD.2,1
+```
+
+- Safe mid mid string
+- Close to wall this gives wall crush at +22 and free mixup
+
+```mermaid
+flowchart LR
+CD.2,4
+```
+
+- Natural on hit
+  
+```mermaid
+flowchart LR
+d+2
+```
+
+- Key mid counter hit tool
+- CH launcher
+- Can be sidestepped easily
+
+```mermaid
+flowchart LR
+d+1
+```
+
+- Safe tool for the neutral
+- CH gives guaranteed `d+3+4` stomp
+
+```mermaid
+flowchart LR
+db+2+4
+```
+
+- One of the best moves
+- Hit confirmable with generous window
+- Heat engager and full launch in heat
+
+```mermaid
+flowchart LR
+db+4,1
+```
+
+- Launch punishable on block
+- `db+4` CH launches
+- Can use `db+4` as a keepout tool and fish for CH
+
+```mermaid
+flowchart LR
+db+1+2,1
+```
+
+- Hit confirmable, requires a delay
+
+```mermaid
+flowchart LR
+b+1,4
+```
+
+- Very similar to `f+4`
+- Use for pressure
+- Can be potentially sidestepped after `b+1`
+
+```mermaid
+flowchart LR
+b+1,1+2
+```
+
+- Natural combo on first hit
+- Can go into BOK with `d` afterwards
+
+```mermaid
+flowchart LR
+b+1+4
+```
+
+- On counter get a free `b+2,1+2`
+
+```mermaid
+flowchart LR
+uf+2,1
+```
+
+- Safe mid-mid natural string
+- Free `d+4,2` on hit
+- Can pick up with `iws3` (Super hard) or Heat Burst
+
+```mermaid
+flowchart LR
+f+3+4
+```
+
+- Safe high counter hit launcher
+- Decent chip damage
+- good keepout tool
+
+```mermaid
+flowchart LR
+uf+3
+```
+
+- Low crushing move
+- Good mixup
+- Wall splats
+
+```mermaid
+flowchart LR
+f,F+2
+```
+
+- Safe mid
+
+```mermaid
+flowchart LR
+SS.1+2
+```
+
+- Safe mid
+- On counter hit can follow with `BOK.1+2` > `d+3+4`  
+  Or a dash heat burst
+- Good move at the wall
+
+```mermaid
+flowchart LR
+FC.df+3
+```
+
+- Very risky but still useful
+- Free `BOK.2` or `ub+3` on hit
+- On hit can be used as a launcher by wall by using heat burst
+
+```mermaid
+flowchart LR
+ws3,1
+```
+
+- Third duckable extension
+- Transition to BOK afterwards
+
 :::
 
 ## Punishes
