@@ -37,5 +37,11 @@ features:
       src: /kazuya.png
       width: 150
     link: /kazuya
+  - title: Nina
+    details: Silent Assassin
+    icon:
+      src: /nina.png
+      width: 150
+    link: /nina
 ---
 

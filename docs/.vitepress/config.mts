@@ -19,7 +19,7 @@ export default withMermaid({
         collapsed: true,
         items: [
           { text: 'Leo', link: '/leo' },
-          { text: 'Lili', link: '/lili' }
+          { text: 'Nina', link: '/nina' }
         ]
       }
     ],
