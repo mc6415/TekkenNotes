@@ -378,6 +378,13 @@ df+1 --> f+3+4
 
 - Trades with jabs and gives a good CH launch
 
+```mermaid
+flowchart LR
+d+2 --> 4
+```
+
+- If this CH's them you get to do Leo's magic 4 combo which is BOK.1+2 -->
+  d+3+4 (stomp) for some solid damage
 :::
 
 ## Tech
