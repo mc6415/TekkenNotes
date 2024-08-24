@@ -28,6 +28,24 @@ export default withMermaid({
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
   },
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-70J5YRH01M'
+      }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-70J5YRH01M');`
+    ]
+  ],
   cleanUrls: true,
   markdown: {
     config: (md) => {
