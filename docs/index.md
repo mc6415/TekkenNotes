@@ -19,30 +19,6 @@ features:
       src: /asuka.png
       width: 150
     link: /asuka
-  - title: Lili
-    details: Fighting Heiress
-    icon:
-      src: /lili.png
-      width: 150
-    link: /lili
-  - title: Reina
-    details: Purple Lightning
-    icon:
-      src: /reina.png
-      width: 150
-    link: /reina
-  - title: Lee
-    details: Silver haired-Demon
-    icon:
-      src: /lee.png
-      width: 150
-    link: /lee
-  - title: Kazuya
-    details: Cold-Blooded Oppressor
-    icon:
-      src: /kazuya.png
-      width: 150
-    link: /kazuya
   - title: Nina
     details: Silent Assassin
     icon:
