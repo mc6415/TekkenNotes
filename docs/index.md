@@ -13,6 +13,12 @@ features:
       src: /leo.png
       width: 150
     link: /leo
+  - title: Asuka
+    details: Spirited Peacemaker
+    icon:
+      src: /asuka.png
+      width: 150
+    link: /asuka
   - title: Lili
     details: Fighting Heiress
     icon:
