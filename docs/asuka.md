@@ -8,8 +8,6 @@ outline: [2,4]
 
 # Asuka
 
-[[toc]]
-
 ## Basic Oki
 
 ### Enders for basic Oki
